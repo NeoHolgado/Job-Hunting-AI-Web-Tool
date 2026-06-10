@@ -60,3 +60,15 @@ Ranks jobs according to semantic similarity and returns the most relevant opport
 - Semantic search powered by pgvector similarity matching
 
 ## Screenshots
+
+### Job Recommendations Page
+
+Users receive ranked job recommendations based on semantic similarity between their resume and job descriptions.
+![JobReccomendations](images/screenshot_3.png)
+
+### Resume Upload Page
+
+Users can upload their resume to be 
+![ResumeUpload](images/screenshot_2.png)
+
+![ResumeView](images/screenshot_1.png)
