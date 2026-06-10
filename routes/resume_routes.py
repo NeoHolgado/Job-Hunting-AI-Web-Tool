@@ -162,6 +162,7 @@ def get_resumes_for_group_route(resume_group_id):
             db_connection.close()
 
 
+# This function was written by me
 @resume_bp.route("/resume/<resume_group_id>/<resume_id>", methods=["DELETE"])
 @require_auth
 def delete_resume_route(resume_group_id, resume_id):
@@ -240,6 +241,7 @@ def retrieve_resume_groups_route():
             db_connection.close()
 
 
+# This function was written by me
 @resume_bp.route("/resume_group/<resume_group_id>", methods=["DELETE"])
 @require_auth
 def delete_resume_group_route(resume_group_id):
