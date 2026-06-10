@@ -2,6 +2,7 @@ import psycopg2
 from utils.config import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_URL
 
 
+# This function was written by one of my team members
 def get_db_connection():
     return psycopg2.connect(
         dbname=DB_NAME,
