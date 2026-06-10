@@ -6,7 +6,11 @@ A team capstone project that uses semantic search and AI embeddings to match use
 
 Users can upload a resume and receive ranked job reccomendations based on semantic similarity between resume content and job descriptions
 
-## My Contributions
+## Team Contributions
+
+This project was developed as part of a four-person captsone team. The files and code included in this repository represent the portions of the project that I personally designed and implemented.
+
+### My Contributions
 
 I was responsible for the AI and data pipeline components of the project, including:
 
@@ -30,10 +34,6 @@ I was responsible for the AI and data pipeline components of the project, includ
 - Greenhouse Job Board API
 - JWT Authentication
 - BeautifulSoup
-
-## Files Included In This Repository
-
-This repository contains components that I personally developed for the project.
 
 ## Key Features
 
@@ -68,7 +68,10 @@ Users receive ranked job recommendations based on semantic similarity between th
 
 ### Resume Upload Page
 
-Users can upload their resume to be 
+Users can upload multiple resumes to their personal account.
 ![ResumeUpload](images/screenshot_2.png)
 
+### Resume View Page
+
+Users can view their uploaded resumes.
 ![ResumeView](images/screenshot_1.png)
